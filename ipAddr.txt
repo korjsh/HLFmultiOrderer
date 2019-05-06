@@ -1,0 +1,11 @@
+server 1 - kafka, ca, orderer
+220.90.129.117
+
+server 2 - peer0, cli0
+13.125.26.188
+
+server 3 - peer1, cli1
+54.180.107.165
+
+server 4 - peer2, cli2
+13.125.233.217
