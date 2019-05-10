@@ -27,10 +27,10 @@ services:
             - ../crypto-config/peerOrganizations/org1.example.com/users:/var/hyperledger/users
             - ../network-config/:/var/hyperledger/configs
         extra_hosts:
-            - "orderer0.example.com:13.125.255.103"
-            - "orderer1.example.com:13.125.255.103"
-            - "orderer2.example.com:13.125.255.103"
-            - "ca.example.com:13.125.255.103"
+            - "orderer0.example.com:52.231.71.160"
+            - "orderer1.example.com:52.231.71.160"
+            - "orderer2.example.com:52.231.71.160"
+            - "ca.example.com:52.231.71.160"
             - "peer0.org1.example.com:13.124.40.95"
             - "peer2.org1.example.com:54.180.153.199"
         networks:

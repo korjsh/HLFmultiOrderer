@@ -163,9 +163,9 @@ services:
             - ORDERER_ABSOLUTEMAXBYTES=${ORDERER_ABSOLUTEMAXBYTES}
             - ORDERER_PREFERREDMAXBYTES=${ORDERER_PREFERREDMAXBYTES}
         extra_hosts:
-            - "peer0.org1.example.com:172.31.26.5"
-            - "peer1.org1.example.com:172.31.20.177"
-            - "peer2.org1.example.com:172.31.27.143"
+            - "peer0.org1.example.com:13.124.40.95"
+            - "peer1.org1.example.com:52.79.251.157"
+            - "peer2.org1.example.com:54.180.153.199"
         volumes:
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer0.example.com/msp:/var/hyperledger/msp
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer0.example.com/tls:/var/hyperledger/tls
@@ -200,9 +200,9 @@ services:
             - ORDERER_ABSOLUTEMAXBYTES=${ORDERER_ABSOLUTEMAXBYTES}
             - ORDERER_PREFERREDMAXBYTES=${ORDERER_PREFERREDMAXBYTES}
         extra_hosts:
-            - "peer0.org1.example.com:172.31.26.5"
-            - "peer1.org1.example.com:172.31.20.177"
-            - "peer2.org1.example.com:172.31.27.143"
+            - "peer0.org1.example.com:13.124.40.95"
+            - "peer1.org1.example.com:52.79.251.157"
+            - "peer2.org1.example.com:54.180.153.199"
         volumes:
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer1.example.com/msp:/var/hyperledger/msp
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer1.example.com/tls:/var/hyperledger/tls
@@ -235,9 +235,9 @@ services:
             - ORDERER_ABSOLUTEMAXBYTES=${ORDERER_ABSOLUTEMAXBYTES}
             - ORDERER_PREFERREDMAXBYTES=${ORDERER_PREFERREDMAXBYTES}
         extra_hosts:
-            - "peer0.org1.example.com:172.31.26.5"
-            - "peer1.org1.example.com:172.31.20.177"
-            - "peer2.org1.example.com:172.31.27.143"
+            - "peer0.org1.example.com:13.124.40.95"
+            - "peer1.org1.example.com:52.79.251.157"
+            - "peer2.org1.example.com:54.180.153.199"
         volumes:
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/msp:/var/hyperledger/msp
             - ../crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/tls:/var/hyperledger/tls
