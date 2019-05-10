@@ -31,8 +31,8 @@ services:
             - "orderer1.example.com:13.125.255.103"
             - "orderer2.example.com:13.125.255.103"
             - "ca.example.com:13.125.255.103"
-            - "peer0.org1.example.com:13.125.26.188"
-            - "peer2.org1.example.com:13.125.233.217"
+            - "peer0.org1.example.com:13.124.40.95"
+            - "peer2.org1.example.com:54.180.153.199"
         networks:
           behave:
              aliases:

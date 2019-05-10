@@ -14,9 +14,9 @@ services:
             - FABRIC_CA_SERVER_CA_CERTFILE=/etc/hyperledger/fabric-ca-server-config/ca.org1.example.com-cert.pem
             - FABRIC_CA_SERVER_CA_KEYFILE=/etc/hyperledger/fabric-ca-server-config/e92ef8b3d04d0badfa852d72c0f4ad4503513bcd6b4ca28aabbee98d5adfad0c_sk
         extra_hosts:
-            - "peer0.org1.example.com:13.125.26.188"
-            - "peer1.org1.example.com:54.180.107.165"
-            - "peer2.org1.example.com:13.125.233.217"
+            - "peer0.org1.example.com:13.124.40.95"
+            - "peer1.org1.example.com:52.79.251.157"
+            - "peer2.org1.example.com:54.180.153.199"
         ports:
             - "7054:7054"
         command: sh -c 'fabric-ca-server start -b admin:adminpw'
